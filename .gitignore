@@ -1,1 +1,2 @@
-./shakespeare_env
+shakespeare_env/
+.python-version
