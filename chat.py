@@ -78,6 +78,7 @@ def generate_response(model, tokenizer, user_input):
             truncation=True,
             max_length=400,
             add_special_tokens=True
+            
         )
         
         input_ids = encoded['input_ids']
