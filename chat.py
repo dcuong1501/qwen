@@ -143,7 +143,7 @@ def chat_loop(model, tokenizer):
                 break
             
             if not user_input:
-                print("💭 Please ask me something...")
+                print("💭 Please ask me something ...")
                 continue
             
             print("\n🎭 Shakespeare: ", end="", flush=True)
